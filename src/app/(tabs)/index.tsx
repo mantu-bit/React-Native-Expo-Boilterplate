@@ -1,11 +1,14 @@
-import { StyleSheet, View } from "react-native";
-import React from "react";
 import { Collapsible } from "@/components/Collapsible";
+import { ExternalLink } from "@/components/ExternalLink";
+import React from "react";
+import { StyleSheet, View } from "react-native";
+
 
 const HomeScreen = () => {
   return (
     <View>
-      <Collapsible title="hi" />
+      <Collapsible title="hey"/>
+      <ExternalLink href="www.google.com"/>
     </View>
   );
 };
