@@ -10,7 +10,7 @@ This boilerplate includes a range of features to kick-start your React Native de
 - [ ] Migrate styling to unistyles
 - [ ] Add Light/Dark theme support
 - [ ] Add Translation support
-- [ ] Add EsLint Config and define rules
+- [x] Add EsLint Config and define rules
 - [ ] Add multiple environment support
 - [ ] Add useful custom hooks
 - [ ] Add EAS Workflow
