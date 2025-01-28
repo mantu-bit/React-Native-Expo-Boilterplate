@@ -11,6 +11,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.addMissingImports": "explicit",
+    "source.sortMembers": "explicit",
     "source.organizeImports": "explicit"
   },
   "[javascript]": {
