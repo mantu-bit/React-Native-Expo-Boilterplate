@@ -1,4 +1,21 @@
-# Welcome to your Expo app 👋
+# Welcome to react native boilerplate app 👋
+
+This boilerplate includes a range of features to kick-start your React Native development:
+
+- [x] Upgrade to expo@52
+- [x] Migrate to TypeScript
+- [ ] Add Redux Toolkit
+- [ ] Use RTK Query for api requests
+- [ ] Add Network Reachability support
+- [ ] Migrate styling to unistyles
+- [ ] Add Light/Dark theme support
+- [ ] Add Translation support
+- [x] Add EsLint Config and define rules
+- [ ] Add multiple environment support
+- [ ] Add useful custom hooks
+- [ ] Add EAS Workflow
+- [ ] Add useful github actions
+- [ ] Add Support for animated splash screen (Lottie/Video)
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
