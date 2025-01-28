@@ -1,24 +1,23 @@
-import { Collapsible } from "@/components/Collapsible";
-import { ExternalLink } from "@/components/ExternalLink";
 import React from "react";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import { StyleSheet } from "react-native-unistyles";
 
 
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-      <Collapsible title="hey"/>
-      <ExternalLink href="www.google.com"/>
+      <Text>
+        This is HomeScreen
+      </Text>
     </View>
   );
 };
 
 export default HomeScreen;
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create((theme) => ({
   container:{
     flex:1,
-    paddingTop:20
+    backgroundColor:theme.colors.primary
   }
-});
+}));
